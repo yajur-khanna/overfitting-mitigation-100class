@@ -1,12 +1,13 @@
 # 📊 Training Results
 
-This repository contains the training metrics and performance visualizations for the model.
+This readme contains the training metrics and performance visualizations for the model in this directory.
 
 ---
 
 ## 🔹 F1 Score
 
-The F1 Score measures the balance between precision and recall across classes.
+- Training F1 Score: Approaches ~0.98–1.0, nearly perfect on the training set.
+- Validation F1 Score: Plateaus around ~0.63–0.67
 
 ![F1 Score](./f1_score.png)
 
@@ -14,7 +15,8 @@ The F1 Score measures the balance between precision and recall across classes.
 
 ## 🔹 Loss Curve
 
-The loss curve shows how the training and validation loss evolved over epochs.
+- Training Loss: Drops aggressively to near 0 by epoch 40–50.
+- Validation Loss: Flattens around ~1.2–1.4 after epoch 15 and shows a slight upward trend, confirming stronger overfitting.
 
 ![Loss](./loss.png)
 
@@ -22,7 +24,8 @@ The loss curve shows how the training and validation loss evolved over epochs.
 
 ## 🔹 Accuracy
 
-Accuracy represents the percentage of correct predictions over time.
+- Training Accuracy: Reaches ~98–100% by epoch 50, climbing rapidly after epoch 15.
+- Validation Accuracy: Plateaus around ~63–67%, with fluctuations and a widening gap from training accuracy.
 
 ![Accuracy](./accuracy.png)
 
@@ -36,8 +39,6 @@ Accuracy represents the percentage of correct predictions over time.
 
 ---
 
-## 🚀 Usage
+## Observation
 
-Ensure all three `.png` files are located in the root directory of the repository (or update the image paths accordingly).
-
-GitHub will automatically render these images inside this README.
+Clearly, the model is *highly* overfit
