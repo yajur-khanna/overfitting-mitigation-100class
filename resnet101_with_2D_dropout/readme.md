@@ -40,4 +40,4 @@ This readme contains the training metrics and performance visualizations for the
 
 ## Observation
 
-After adding dropouts near the end of the RseNet model layers, overfitting reduced minimal but the model generalisability was also affected slightly
+After adding dropouts near the end of the ResNet model layers, overfitting is reduced minimally but the model generalisability was also affected slightly
