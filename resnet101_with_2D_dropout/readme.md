@@ -8,7 +8,6 @@ This readme contains the training metrics and performance visualizations for the
 
 - Training F1 Score: Climbs to ~0.92, following a similar trajectory to accuracy.
 - Validation F1 Score: Peaks around ~0.72 near epoch 13–15, then gradually settles to ~0.68–0.71 with oscillations.
-- 
 ![F1 Score](./f1_score.png)
 
 ---
