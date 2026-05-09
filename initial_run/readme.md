@@ -41,4 +41,4 @@ This readme contains the training metrics and performance visualizations for the
 
 ## Observation
 
-Clearly, the model is **highly** overfit
+Clearly, the model is **highly** overfit, which is expected for a 100 class classification problem
