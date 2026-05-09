@@ -32,7 +32,7 @@ This readme contains the training metrics and performance visualizations for the
 
 ## 🔹 Test Scores
 
-- Test acc: 69.40
+- Test acc: 69.40%
 - Test F1: 0.6807
 
 ## 📁 Files Included
