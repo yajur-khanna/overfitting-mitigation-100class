@@ -46,4 +46,4 @@ This readme contains the training metrics and performance visualizations for the
 ---
 
 ## Observation
-The model converges well on the training set but the train/val gap widens after epoch ~20 — train accuracy continues rising past 90% while validation stalls near 80%, and validation loss flattens while training loss keeps falling. The single dropout layer before the FC head curbs overfitting only mildly; stronger regularization (dropout inside the bottleneck blocks, weight decay tuning, label smoothing, or richer augmentation such as RandAugment / MixUp / CutMix) and ImageNet-pretrained initialization would likely close most of the remaining gap.
+The model converges well on the training set but the train/val gap widens after epoch ~20 — train accuracy continues rising past 90% while validation stalls near 80%, and validation loss flattens while training loss keeps falling. The single dropout layer before the FC head curbs overfitting only mildly. Removing the dropout inside bottleneck ResNet blocks might have played a role. However, augmentation clearly helped reduce overfitting without affecting generalizability.
