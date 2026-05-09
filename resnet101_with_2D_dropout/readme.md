@@ -30,6 +30,11 @@ This readme contains the training metrics and performance visualizations for the
 
 ---
 
+## 🔹 Test Scores
+
+- Test acc: 69.40
+- Test F1: 0.6807
+
 ## 📁 Files Included
 
 - `f1_score.png` – F1 score vs epochs  
@@ -40,4 +45,4 @@ This readme contains the training metrics and performance visualizations for the
 
 ## Observation
 
-After adding dropouts near the end of the ResNet model layers, overfitting is reduced minimally but the model generalisability was also affected slightly
+After adding dropouts near the end of the ResNet model layers, overfitting is reduced minimally but the model generalisability was also affected slightly.
