@@ -32,6 +32,8 @@ This readme contains the training metrics and performance visualizations for the
 - Test acc: 82.00%
 - Test F1: 0.8122
 
+---
+
 ## 📁 Files Included
 - `f1_score.png` – F1 score vs epochs
 - `loss.png` – Training & validation loss vs epochs
